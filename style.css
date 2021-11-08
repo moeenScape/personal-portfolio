@@ -1,0 +1,85 @@
+body{
+        font-family:'poppins', sans-serif;
+        margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+.custom{
+    margin-left: 10px;
+    font-weight: bold;
+    color: blue;
+    
+}
+ .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+       }
+
+.blue-highlight{
+    color:rgb(8, 22, 34);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left:2%;
+    margin-left: 5%;
+
+}
+.half-width img{
+    width: 100%;
+    border-radius: 100%;
+    border:5px solid coral;
+}
+.top-banar{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+section{
+    height:500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(224, 152, 70),orange);
+    padding: 10px 30px;
+    color: whitesmoke;
+    font-weight: 700;
+    border-radius: 15px;
+}
+h2{
+    font-size: 40px;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experince{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 14px;
+    height:70%;
+    background-color: whitesmoke;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Intermediate-App-Developer{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#Core-Programmer{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}

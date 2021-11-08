@@ -1,0 +1,172 @@
+
+body{
+    color:white;
+    background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    color: #000;
+    text-transform: uppercase;
+}
+.custom{
+    margin-left: 10px;
+    font-weight: bold;
+    color: blue;
+    
+}
+
+
+.head-section{
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgreen;
+    border: 1%;
+    margin-top: 2em;
+    padding-bottom: 2em;
+    border-bottom: 5px solid yellowgreen;
+    
+}
+.profile-image img{
+    width:250px;
+    height: 250px;
+    border:3.5px solid skyblue;
+    border-radius:100%;
+}
+.head-section-bio{
+    padding: 2em;
+}
+.design{
+    padding:0.4em 0.6em;
+    background-color:khaki;
+    color:black;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: .1s ease-in;
+}
+
+.contact{
+    color:white;
+    font-weight: bold;
+}
+.mid-section{
+    background-color: darkolivegreen;
+    margin-top: 2em;
+    display:flex;
+    justify-content: center;
+    padding:2em;
+    border-bottom: 5px solid yellowgreen;
+    margin-bottom: 2em;
+}
+.content-bar{
+   width:45%;
+    padding:1.5em;
+}
+.left-content{
+    padding-right: 1em;
+    border-right: 3px dashed yellow;
+}
+.linkedin,
+.github,
+.facebook{
+    color:white;
+}
+.facebook:hover,
+.linkedin:hover,
+.github:hover,
+.design:hover{
+    background-color: chocolate;
+    color: cornsilk;
+}
+
+/* mobile screen */
+@media screen and (max-width:875px) {
+    h1{font-size: 27px;}
+    h2{font-size: 20px;}
+    h3{font-size: 18px;}
+    h4{font-size: 10;}
+    h5{font-size: 15px;}
+    .fontsize{
+        font-size: 17px;
+    }
+    .head-section{
+        padding-top: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: darkgreen;
+        width:95%;
+        border: 1%;
+        margin-top: .5em;
+        padding-bottom: 1em;
+        margin-left: .5em;
+        margin-right: .5em;
+        border-bottom: 5px solid yellowgreen;
+        
+    } 
+    .profile-image img{
+        width:150px;
+        height: 150px;
+        border:3.5px solid skyblue;
+        border-radius:100%;
+        
+    }
+    .font{
+        font-size: 1em;
+    }
+    
+    .design{
+        padding:0.4em 0.6em;
+        background-color:khaki;
+        color:black;
+        font-weight: bold;
+        text-transform: capitalize;
+        transition: .1s ease-in;
+    }
+    .contact{
+        color:white;
+        font-weight: bold;
+    }
+    .mid-section{
+        background-color: darkolivegreen;
+        margin-top: .5em;
+        display:flex;
+        justify-content: center;
+        width:95%;
+        border-bottom: 5px solid yellowgreen;
+        margin-bottom: .5em;
+        padding-left:1em ;
+        margin-left: .5em;
+        margin-right: .5em;
+       
+    }
+    .content-bar{
+       width:45%;
+        padding:1.5em;
+        font-size: .6em;
+    } 
+    .left-content{
+        padding-right: 1em;
+        border-right: 3px dashed yellow;
+    }
+    .linkedin,
+    .github,
+    .facebook{
+        color:white;
+    }
+    .facebook:hover,
+    .linkedin:hover,
+    .github:hover{
+        background-color: chocolate;
+        color: cornsilk;
+    }
+  
+}
